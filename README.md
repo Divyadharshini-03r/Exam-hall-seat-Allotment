@@ -1,123 +1,123 @@
-# 🚀 AI-Powered Exam Hall Seating Arrangement System
+# 🎓 Exam Seating Buddy – Smart Seating Arrangement System
 
-An intelligent and scalable web application that automates exam seating allocation using optimized algorithms to ensure fairness, efficiency, and constraint-based distribution.
-
----
-
-## 🔥 Key Highlights (For Recruiters)
-
-* ⚡ Reduced manual seating effort by **90%** through automation
-* 🧠 Implemented **constraint-based allocation algorithm** for fair distribution
-* 🎯 Eliminates adjacency conflicts (same subject / department)
-* 📈 Handles **large-scale student datasets efficiently**
-* 🖥️ Built with modern frontend tooling for high performance
+A modern React-based web application that generates and manages exam hall seating arrangements with a clean dashboard UI and efficient seat allocation logic.
 
 ---
 
-## 🧩 Problem Statement
+## 🚀 Live Project Overview
 
-Manual exam seating arrangement is:
+This project provides an intuitive interface for organizing student seating across exam halls while ensuring structured and manageable layouts.
 
-* Time-consuming ⏳
-* Error-prone ❌
-* Difficult to scale 📉
-
-This project solves these challenges by generating optimized seating plans automatically.
+Built using **React + TypeScript + Vite + shadcn/ui**, the app focuses on performance, modular design, and user experience.
 
 ---
 
-## 💡 Solution Approach
+## 🛠️ Tech Stack (Based on Code)
 
-* Designed a **rule-based + randomized allocation algorithm**
-
-* Ensured:
-
-  * No same-branch students sit adjacent
-  * Even distribution across halls
-  * Maximum seat utilization
-
-* Modular architecture for easy scalability and updates
-
----
-
-## 🛠️ Tech Stack
-
-* **Frontend:** HTML, CSS, Tailwind CSS, JavaScript / TypeScript
-* **Build Tool:** Vite
-* **Runtime:** Node.js
-* **Package Manager:** npm / bun
-
----
-
-## ⚙️ System Workflow
-
-1. Input student data (roll no, department, subject)
-2. Define exam halls & seating capacity
-3. Apply constraints (no adjacency conflicts)
-4. Generate optimized seating plan
-5. Display results instantly
-
----
-
-## 📊 Algorithm Logic (Core Strength)
-
-* Uses **greedy + randomization technique**
-* Conflict checking for:
-
-  * Same subject proximity
-  * Same department clustering
-* Time Complexity: **O(n log n)** (optimized for large inputs)
+* ⚛️ **Frontend:** React (TypeScript)
+* ⚡ **Build Tool:** Vite
+* 🎨 **Styling:** Tailwind CSS
+* 🧩 **UI Components:** shadcn/ui + Radix UI
+* 🧪 **Testing:** Vitest
+* 📦 **Package Manager:** npm
 
 ---
 
 ## 📁 Project Structure
 
-
-Exam-Hall-Seating/
+```bash
+exam-seating-buddy-main/
 │
-├── exam-seating-buddy-main/
-│   ├── src/
+├── src/
 │   ├── components/
-│   ├── public/
-│   ├── package.json
-│   └── vite.config.ts
-
-
- 🚀 Installation
-
-git clone https://github.com/your-username/exam-hall-seating.git
-cd exam-hall-seating/exam-seating-buddy-main
-npm install
-npm run dev
-
-
-
-
-## 🧪 Sample Use Case
-
-* 500+ students
-* Multiple departments
-* 10+ exam halls
-
-➡️ Generates seating plan in seconds with zero conflicts
+│   │   ├── ui/                 # Reusable UI components (shadcn)
+│   │   ├── AppSidebar.tsx      # Sidebar navigation
+│   │   ├── DashboardLayout.tsx # Main layout structure
+│   │   └── NavLink.tsx         # Navigation links
+│   │
+│   ├── App.tsx                 # Root component
+│
+├── public/                     # Static assets
+├── package.json               # Dependencies & scripts
+├── vite.config.ts             # Vite configuration
+└── eslint.config.js           # Linting rules
+```
 
 ---
 
-## 🔮 Future Enhancements
+## ✨ Features (From Your Code)
 
-* 🤖 AI-based seating optimization (ML model)
-* 📄 PDF export & print-ready format
-* 🔐 Role-based admin system
-* ☁️ Cloud database integration
+* 📊 Dashboard-based layout system
+* 📂 Modular component architecture
+* 🎯 Reusable UI components (buttons, dialogs, cards, etc.)
+* 🧭 Sidebar navigation system
+* ⚡ Fast rendering with Vite
+* 🎨 Clean and modern UI using Tailwind + shadcn
+
+---
+
+## ⚙️ Installation & Setup
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/exam-seating-buddy.git
+
+# Navigate into project
+cd exam-seating-buddy/exam-seating-buddy-main
+
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
+```
+
+Open:
+
+```
+http://localhost:5173
+```
+
+---
+
+## 🧠 Core Concept
+
+This system is designed to:
+
+* Simplify exam seating management
+* Provide a structured UI for handling arrangements
+* Enable scalability with modular React components
+
+---
+
+## 🧪 Available Scripts
+
+```bash
+npm run dev       # Start development server
+npm run build     # Build for production
+npm run preview   # Preview production build
+npm run lint      # Run ESLint
+npm run test      # Run tests (Vitest)
+```
+
+---
+
+## 🔮 Future Improvements
+
+* 🧠 Add seating allocation algorithm (logic layer)
+* 📄 Export seating plan as PDF
+* 🔐 Add authentication system
+* ☁️ Backend integration (Node.js / Firebase)
+* 📊 Admin analytics dashboard
 
 ---
 
 ## 🏆 Why This Project Stands Out
 
-* Real-world problem solving ✅
-* Algorithmic thinking demonstrated ✅
-* Scalable system design ✅
-* Clean UI + performance-focused build ✅
+* Uses **modern frontend stack (React + Vite + TS)**
+* Clean and scalable **component architecture**
+* Industry-standard UI libraries (**shadcn + Radix**)
+* Ready to extend into a **full-stack system**
 
 ---
 
